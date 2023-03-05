@@ -40,7 +40,7 @@ body {
     font-size: x-large;
 }
 
-article {
+article{
     padding-bottom:60px;
 }
 
@@ -51,6 +51,7 @@ article {
 
 .upcoming-events-title {
     font-size: 70px;
+    color: rgb(205, 0, 26);  
 }
 
 .event-container {
