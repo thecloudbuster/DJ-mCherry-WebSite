@@ -5,36 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ mCherry - ABOUT</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="https://twemoji.maxcdn.com/2/svg/1f352.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS main -->
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="header_index">  
+    <header>
         <!-- Navigation Bar -->
-            <nav>
-            <ul class="navigation_bar">
-                <li>
-                    <a href="../index.html" class="navigation_li text_decoration">HOME</a>
-                </li>
-                <li>
-                    <a href="../pages/about.html" class="navigation_li text_decoration">ABOUT</a>
-                </li>
-                <li>
-                    <a href="../pages/events.html" class="navigation_li text_decoration">EVENTS</a>
-                </li>
-                <li>
-                    <a href="../pages/music.html" class="navigation_li text_decoration">MUSIC</a>
-                </li>
-                <li>
-                    <a href="../pages/contact.html" class="navigation_li text_decoration">CONTACT</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fs-1">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="../pages/events.html">EVENTS</a>
+                        <a class="nav-link" href="../pages/music.html">MUSIC</a>
+                        <a class="nav-link" href="../pages/contact.html">CONTACT</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
+    <!-- <main>
         <section>
             <article>
-                <!-- Long description -->
+                Long description
                 <div>
                     <h1>DJ mCherry // Agustín Alonso</h1>
                     <h2>DJ, Producer, Visual Artist</h2>
@@ -47,17 +49,42 @@
                     <p>He also produces the monthly event Pikete, an itinerant party destined to immigrant latinx talent and sound representation.</p>
                 </div>
             </article>
-            <!-- 'Contact' shortcut -->
+            'Contact' shortcut
             <div class="shortcuts_container">
-                <a href="../pages/contact.html" class="text_decoration">BOOK ME</a>
+                <a class="btn btn-outline-danger btn-lg " href="../pages/contact.html" role="button">BOOK ME!</a>
             </div>
         </section>
-    </main>
-    <footer id="footer">
-        <!-- Copyright -->
-        <div class="footer_container">
-            <p>© DJ mCherry</p>
-        </div>
+    </main> -->
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <!-- Social Media Links -->
+            <div class="col-12">
+                <ul class="social_media_list justify-content-center">
+                    <li>
+                        <a href="https://soundcloud.com/mcherry909" target="_blank">
+                            <img src="../img/icon-socials-soundcloud.ico" alt="Soundcloud Icon" class="social_media_icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/aerialtag/" target="_blank">
+                            <img src="../img/icon-socials-instagram.png" alt="Instagram Icon" class="social_media_icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/aaguustiin" target="_blank">
+                            <img src="../img/icon-socials-facebook.ico" alt="Instagram Icon" class="social_media_icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Copyright -->
+                <div class="col-12 text-center copyright">
+                    <p>© DJ mCherry</p>
+                </div>
+            </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
