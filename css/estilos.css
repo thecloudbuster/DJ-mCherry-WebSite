@@ -26,9 +26,14 @@ body {
     justify-content: space-around;
 }
 
-.description_index_container { 
+.description_container { 
     font-size: x-large;
     padding:10px;
+}
+
+.description {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .description_header {
