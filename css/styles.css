@@ -25,12 +25,12 @@ header .navbar-brand {
   color: #cd001a;
 }
 
-main section .main_container {
+main .main_container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-main section .main_container a {
+main .main_container a {
   font-size: x-large;
 }
 main .description_container {
