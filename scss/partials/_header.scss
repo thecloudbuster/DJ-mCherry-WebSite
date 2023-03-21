@@ -1,0 +1,15 @@
+@use './variables';
+
+header {
+
+    .nav-link {
+        color: variables.$main-color;
+    }
+
+    .navbar-brand {
+        font-size: large;
+        margin-left:10px;
+        color: variables.$main-color;
+    }
+
+}

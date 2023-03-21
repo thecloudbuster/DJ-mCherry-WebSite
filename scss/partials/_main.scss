@@ -1,0 +1,79 @@
+@use './variables';
+
+main {
+
+    section .main_container {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    
+        a {
+            font-size: variables.$main-font-size;
+        }
+    
+    }
+
+    .description_container { 
+        font-size: variables.$main-font-size;
+        padding:10px;
+
+        h1 {
+            margin:15px 30px 30px 30px;
+            font-size: 50px;
+        }
+
+        //About Page//
+        .description {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+    }
+
+    article {
+        padding-bottom:60px;
+    
+        .upcoming-events-title-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+            h2 {
+                font-size: 70px;
+                color: variables.$main-color; 
+            }
+
+        }
+
+        .event-container {
+        padding: 0px 30px 50px 30px;
+
+            a {
+                font-size: variables.$main-font-size;
+            }
+
+            .event_date {
+                margin-top: 10px;
+                font-size: 25px;
+            }
+        
+            .event_time {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                font-size: 25px;
+            }
+
+        }
+
+        .more-events a {
+            font-size: variables.$main-font-size;
+        }
+
+        //About Page//
+        .shortcut-container a {
+            font-size: variables.$main-font-size;
+        }
+
+    }
+    
+}
+    

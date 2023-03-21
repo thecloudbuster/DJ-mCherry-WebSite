@@ -1,0 +1,20 @@
+@use './variables';
+
+.music-section { 
+    padding-top: 50px;
+
+    h1 {
+        font-size: 70px;
+        color: variables.$main-color; 
+        margin-bottom: 100px;
+    }
+
+    .track-container {
+        margin-bottom: 100px;
+    }
+
+    a {
+        font-size:medium;
+    }
+    
+}
