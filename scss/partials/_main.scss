@@ -21,11 +21,20 @@ main {
             margin:15px 30px 30px 30px;
             font-size: 50px;
         }
+        
+        h2 {
+            margin:15px 30px 30px 30px;
+            font-size: 50px;
+        }
 
         //About Page//
         .description {
             padding-right: 30px;
             padding-left: 30px;
+        }
+
+        .p {
+            padding-top: 150px;
         }
 
     }
@@ -73,6 +82,10 @@ main {
             font-size: variables.$main-font-size;
         }
 
+    }
+
+    .form_component {
+        margin-top: 10px;   
     }
     
 }
